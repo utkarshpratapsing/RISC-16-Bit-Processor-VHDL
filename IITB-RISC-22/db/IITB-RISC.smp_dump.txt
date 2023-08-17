@@ -1,0 +1,23 @@
+
+State Machine - |datapath|FSM:fsm_inst|current_state
+Name current_state.Incrmnt_PC2 current_state.Incrmnt_PC current_state.SM_MEM3 current_state.LM_MEM3 current_state.LM_MEM2 current_state.LM_MEM current_state.JLR_WB current_state.JLR_MEM current_state.JLR_Execute current_state.JAL_Execute current_state.BEQ_MEM current_state.BEQ_Execute current_state.LS_WB current_state.LS_MEM current_state.LS_Execute current_state.Arth_WB current_state.Arth_MEM current_state.Arth_Execute current_state.Decode current_state.Fetch 
+current_state.Fetch 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.Decode 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.Arth_Execute 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.Arth_MEM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.Arth_WB 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.LS_Execute 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.LS_MEM 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.LS_WB 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.BEQ_Execute 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.BEQ_MEM 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.JAL_Execute 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.JLR_Execute 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.JLR_MEM 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.JLR_WB 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.LM_MEM 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.LM_MEM2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.LM_MEM3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.SM_MEM3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Incrmnt_PC 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Incrmnt_PC2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
